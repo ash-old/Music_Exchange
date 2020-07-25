@@ -49,8 +49,13 @@ public class DrumsTest {
         assertEquals(500, drums.getSell());
     }
 
+//    @Test
+//    public void canCalculateMarkUp(){
+//        assertEquals(330, drums.calculateMarkUp(drums), 0.1);
+//    }
+
     @Test
     public void canCalculateMarkUp(){
-        assertEquals(330, drums.calculateMarkUp(drums), 0.1);
+        assertEquals(200, drums.calculateMarkUp(drums), 0.1);
     }
 }

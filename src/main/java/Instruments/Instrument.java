@@ -39,8 +39,13 @@ public abstract class Instrument implements IPlay, ISell {
         return sell;
     }
 
-    public double calculateMarkUp(Instrument instrument) {
-        double markUp = instrument.getBought() * 0.10;
-        return markUp + instrument.getBought();
+    public double calculateMarkUp(Instrument instrument){
+        double profit = instrument.sell - instrument.bought;
+        return profit;
     }
+
+//    public double calculateMarkUp(Instrument instrument) {
+//        double markUp = instrument.getBought() * 0.10;
+//        return markUp + instrument.getBought();
+//    }
 }

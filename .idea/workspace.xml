@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1dd5ed4-49d7-4425-8d96-83269a3f250b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Instruments/Drums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Instruments/Guitar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Instruments/Piano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Instruments/Trumpet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviours/IPlay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviours/ISell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Instruments/DrumsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Instruments/GuitarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Instruments/PianoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Instruments/TrumpetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Instruments/DrumsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Instruments/DrumsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Instruments/GuitarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Instruments/GuitarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Instruments/PianoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Instruments/PianoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Instruments/TrumpetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Instruments/TrumpetTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,18 +59,11 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ShopTest">
-    <configuration name="DrumsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in MusicExchange_hw">
+    <configuration name="All in MusicExchange_hw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicExchange_hw" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Instruments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Instruments" />
-      <option name="MAIN_CLASS_NAME" value="Instruments.DrumsTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in MusicExchange_hw" />
         <item itemvalue="JUnit.ShopTest" />
         <item itemvalue="JUnit.Instruments in MusicExchange_hw" />
         <item itemvalue="JUnit.PianoTest" />
         <item itemvalue="JUnit.GuitarTest" />
-        <item itemvalue="JUnit.DrumsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -168,22 +149,22 @@
       <screen x="0" y="23" width="1680" height="980" />
     </state>
     <state x="601" y="211" key="#com.intellij.ide.util.MemberChooser/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1595604328029" />
-    <state width="1265" height="240" key="GridCell.Tab.0.bottom" timestamp="1595605327819">
+    <state width="1265" height="240" key="GridCell.Tab.0.bottom" timestamp="1595689599601">
       <screen x="0" y="23" width="1680" height="980" />
     </state>
-    <state width="1265" height="240" key="GridCell.Tab.0.bottom/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1595605327819" />
-    <state width="1265" height="240" key="GridCell.Tab.0.center" timestamp="1595605327818">
+    <state width="1265" height="240" key="GridCell.Tab.0.bottom/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1595689599601" />
+    <state width="1265" height="240" key="GridCell.Tab.0.center" timestamp="1595689599600">
       <screen x="0" y="23" width="1680" height="980" />
     </state>
-    <state width="1265" height="240" key="GridCell.Tab.0.center/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1595605327818" />
-    <state width="1265" height="240" key="GridCell.Tab.0.left" timestamp="1595605327817">
+    <state width="1265" height="240" key="GridCell.Tab.0.center/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1595689599600" />
+    <state width="1265" height="240" key="GridCell.Tab.0.left" timestamp="1595689599599">
       <screen x="0" y="23" width="1680" height="980" />
     </state>
-    <state width="1265" height="240" key="GridCell.Tab.0.left/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1595605327817" />
-    <state width="1265" height="240" key="GridCell.Tab.0.right" timestamp="1595605327818">
+    <state width="1265" height="240" key="GridCell.Tab.0.left/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1595689599599" />
+    <state width="1265" height="240" key="GridCell.Tab.0.right" timestamp="1595689599601">
       <screen x="0" y="23" width="1680" height="980" />
     </state>
-    <state width="1265" height="240" key="GridCell.Tab.0.right/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1595605327818" />
+    <state width="1265" height="240" key="GridCell.Tab.0.right/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1595689599601" />
     <state x="567" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1595587279286">
       <screen x="0" y="23" width="1680" height="980" />
     </state>

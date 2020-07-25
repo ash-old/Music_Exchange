@@ -11,7 +11,7 @@ public class PianoTest {
 
     @Before
     public void setUp() throws Exception {
-        piano = new Piano(88, "keys", "steinway & sons", "b-211", 600, 800);
+        piano = new Piano(88, "keys", "steinway & sons", "b-211", 650, 800);
     }
 
     @Test
@@ -41,7 +41,7 @@ public class PianoTest {
 
     @Test
     public void canBuy(){
-        assertEquals(600, piano.getBought());
+        assertEquals(650, piano.getBought());
     }
 
     @Test
@@ -51,6 +51,11 @@ public class PianoTest {
 
     @Test
     public void canCalculateMarkUp(){
-        assertEquals(660, piano.calculateMarkUp(piano), 0.1);
+        assertEquals(150, piano.calculateMarkUp(piano), 0.1);
     }
+
+//    @Test
+//    public void canCalculateMarkUp(){
+//        assertEquals(660, piano.calculateMarkUp(piano), 0.1);
+//    }
 }
