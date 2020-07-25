@@ -11,7 +11,7 @@ public class PianoTest {
 
     @Before
     public void setUp() throws Exception {
-        piano = new Piano(88, "keys", "steinway & sons", "b-211", 650, 800);
+        piano = new Piano(88, InstrumentType.KEYS, "steinway & sons", "b-211", 650, 800);
     }
 
     @Test
@@ -19,9 +19,14 @@ public class PianoTest {
         assertEquals(88, piano.getNoOfKeys());
     }
 
+//    @Test
+//    public void getCategoryType() {
+//        assertEquals("keys", piano.getCategoryType());
+//    }
+
     @Test
-    public void getCategoryType() {
-        assertEquals("keys", piano.getCategoryType());
+    public void canGetInstrumentType(){
+        assertEquals(InstrumentType.KEYS, piano.getInstrumentType());
     }
 
     @Test

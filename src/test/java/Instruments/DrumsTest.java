@@ -11,7 +11,7 @@ public class DrumsTest {
 
     @Before
     public void setUp() throws Exception {
-        drums = new Drums("acoustic", "percussion", "dw", "exotic stainless steel", 300, 500);
+        drums = new Drums("acoustic", InstrumentType.PERCUSSION, "dw", "exotic stainless steel", 300, 500);
     }
 
     @Test
@@ -19,9 +19,14 @@ public class DrumsTest {
         assertEquals("acoustic", drums.getType());
     }
 
+//    @Test
+//    public void getCategoryType(){
+//        assertEquals("percussion", drums.getCategoryType());
+//    }
+
     @Test
-    public void getCategoryType(){
-        assertEquals("percussion", drums.getCategoryType());
+    public void canGetInstrumentType(){
+        assertEquals(InstrumentType.PERCUSSION, drums.getInstrumentType());
     }
 
     @Test
@@ -58,4 +63,5 @@ public class DrumsTest {
     public void canCalculateMarkUp(){
         assertEquals(200, drums.calculateMarkUp(drums), 0.1);
     }
+
 }

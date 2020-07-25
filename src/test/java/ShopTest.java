@@ -1,6 +1,7 @@
 import Instruments.Drums;
 import Instruments.Guitar;
 import Instruments.Instrument;
+import Instruments.InstrumentType;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -14,8 +15,8 @@ public class ShopTest {
 
     @Before
     public void before(){
-        drums = new Drums("acoustic", "percussion", "dw", "exotic stainless steel", 300, 500);
-        guitar = new Guitar(6, "electric", "strings", "gibson", "les paul", 800, 1000);
+        drums = new Drums("acoustic", InstrumentType.PERCUSSION, "dw", "exotic stainless steel", 300, 500);
+        guitar = new Guitar(6, "electric", InstrumentType.STRINGS, "gibson", "les paul", 800, 1000);
         shop = new Shop("Ray's Music Exchange");
     }
 

@@ -11,7 +11,7 @@ public class TrumpetTest {
 
     @Before
     public void setUp() throws Exception {
-        trumpet = new Trumpet(3, "brass", "yamaha", "ytr-2330", 200, 300);
+        trumpet = new Trumpet(3, InstrumentType.BRASS, "yamaha", "ytr-2330", 200, 300);
     }
 
     @Test
@@ -19,9 +19,14 @@ public class TrumpetTest {
         assertEquals(3, trumpet.getNoOfValves());
     }
 
+//    @Test
+//    public void getCategoryType() {
+//        assertEquals("brass", trumpet.getCategoryType());
+//    }
+
     @Test
-    public void getCategoryType() {
-        assertEquals("brass", trumpet.getCategoryType());
+    public void canGetInstrumentType(){
+        assertEquals(InstrumentType.BRASS, trumpet.getInstrumentType());
     }
 
     @Test

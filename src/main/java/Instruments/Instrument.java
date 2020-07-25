@@ -5,22 +5,28 @@ import behaviours.ISell;
 
 public abstract class Instrument implements IPlay, ISell {
 
-    private String categoryType;
+//    private String categoryType;
+    private InstrumentType instrumentType;
     private String make;
     private String model;
     private int bought;
     private int sell;
 
-    public Instrument(String categoryType, String make, String model, int bought, int sell) {
-        this.categoryType = categoryType;
+    public Instrument(InstrumentType instrumentType, String make, String model, int bought, int sell) {
+        this.instrumentType = instrumentType;
         this.make = make;
         this.model = model;
         this.bought = bought;
         this.sell = sell;
     }
 
-    public String getCategoryType() {
-        return categoryType;
+//    public String getCategoryType() {
+//        return categoryType;
+//    }
+
+
+    public InstrumentType getInstrumentType() {
+        return instrumentType;
     }
 
     public String getMake() {

@@ -11,7 +11,7 @@ public class GuitarTest {
 
     @Before()
     public void before(){
-        guitar = new Guitar(6, "electric", "strings", "gibson", "les paul", 800, 1000);
+        guitar = new Guitar(6, "electric", InstrumentType.STRINGS, "gibson", "les paul", 800, 1000);
     }
 
     @Test
@@ -24,9 +24,14 @@ public class GuitarTest {
         assertEquals("electric", guitar.getType());
     }
 
+//    @Test
+//    public void canGetCategoryType(){
+//        assertEquals(InstrumentType.STRINGS, guitar.getCategoryType());
+//    }
+
     @Test
-    public void hasCategoryType(){
-        assertEquals("strings", guitar.getCategoryType());
+    public void canGetInstrumentType(){
+        assertEquals(InstrumentType.STRINGS, guitar.getInstrumentType());
     }
 
     @Test

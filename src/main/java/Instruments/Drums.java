@@ -7,8 +7,8 @@ public class Drums extends Instrument{
 
     private String type;
 
-    public Drums(String type, String categoryType, String make, String model, int bought, int sell) {
-        super(categoryType, make, model, bought, sell);
+    public Drums(String type, InstrumentType instrumentType, String make, String model, int bought, int sell) {
+        super(instrumentType, make, model, bought, sell);
         this.type = type;
     }
 
